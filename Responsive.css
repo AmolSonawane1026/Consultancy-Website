@@ -1,0 +1,270 @@
+@media screen and (max-width: 1500px) {
+  #second-section {
+    height: 100%;
+    width: 100%;
+  }
+  #third-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #forth-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #fifth-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #sixth-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #eighth-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #ninth-section {
+    height: 100%;
+    width: 100%;
+  }
+
+  #footer {
+    height: 100%;
+    width: 100%;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+/* --------------------------------For Tablet Screen----------------------- */
+
+@media screen and (max-width: 768px) {
+ 
+  .hamburger {
+    display: block;
+  }
+  .above-nav {
+    display: none;
+  }
+  
+
+  .nav-ul {
+    display: none;
+   
+  }
+
+  #first-section {
+    height: 100vh;
+    width: 100%;
+
+    background-position: center;
+  }
+
+  .first-section-overlay h1 {
+    font-size: 2.5rem;
+  }
+  .first-section-overlay h3 {
+    margin-bottom: 10px;
+  }
+  .first-section-btn {
+    margin-top: 15px;
+  }
+  .btn1 {
+    padding: 10px 27px;
+  }
+
+  .btn2 {
+    padding: 10px 27px;
+  }
+
+  #fifth-section {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .fifth-right {
+    height: 370px;
+    width: 468px;
+  }
+
+  .fifth-left {
+    height: 350px;
+    width: 468px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .fifth-left h2 {
+    margin: 10px 0px;
+  }
+
+  .fifth-left p {
+    letter-spacing: 0px;
+    font-size: 10px;
+    line-height: 20px;
+    margin: 7px 0px;
+  }
+
+  form input {
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    margin: 3px 5px;
+  }
+
+  select {
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    margin: 3px 5px;
+  }
+
+  .form-btn {
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #first-section {
+    height: 100vh;
+    width: 100%;
+
+    background-position: center;
+  }
+  .bar {
+    width: 27px;
+
+    margin-right: 30px;
+  }
+  .heading {
+    height: 100px;
+    width: 100%;
+
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .second-section-left h2 {
+    font-size: 2rem;
+  }
+  .second-section-left h3 {
+    font-size: 1rem;
+  }
+
+  .second-section-left p {
+    line-height: 22px;
+
+    font-size: 13px;
+  }
+
+  .second_1 img {
+    height: 40px;
+
+    padding: 10px;
+  }
+  .second_1 h3 {
+    font-size: 20px;
+  }
+  .second_1 p {
+    font-size: 13px;
+  }
+
+  .box img {
+    height: 45px;
+    width: auto;
+  }
+  .box p {
+    font-size: 13px;
+  }
+  .box h3 {
+    font-size: 20px;
+  }
+
+  .navbar img {
+    height: 2rem;
+    width: auto;
+  }
+
+  #sixth-section img {
+    height: 280px;
+    width: auto;
+  }
+  #ninth-section h1 {
+    font-size: 30px;
+  }
+  #ninth-section input {
+    height: 35px;
+    width: 100%;
+  }
+
+  .ninth-btn {
+    height: 35px;
+    width: 30%;
+    font-size: 10px;
+  }
+
+  .first-section-overlay h1 {
+    font-size: 2rem;
+  }
+  .first-section-overlay h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .first-section-btn {
+    margin-top: 15px;
+  }
+  .btn1 {
+    padding: 7px 20px;
+    font-size: 10px;
+  }
+
+  .btn2 {
+    padding: 7px 20px;
+    font-size: 10px;
+  }
+
+  #footer {
+    height: 100%;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #first-section {
+    height: 100vh;
+    width: 100%;
+
+    background-position: center;
+  }
+  .bar {
+    margin-right: 25px;
+  }
+  .navbar img {
+    height: 1.6rem;
+    width: auto;
+  }
+  .first-section-overlay h1 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #first-section {
+    height: 100vh;
+    width: 100%;
+
+    background-position: center;
+  }
+  .first-section-overlay h1 {
+    font-size: 1.4rem;
+  }
+}
